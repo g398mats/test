@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h> //sqrtを使うための標準ライブラリ
-#include <>
+#include <stdlib.h> //mallocやfreeを使うための標準ライブラリ
 
 int myRoot(double x) // x の平方根を返す関数。x >= 0 ではないとき exit(1) とする。 
 {
