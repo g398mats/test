@@ -7,7 +7,7 @@ int myRoot(double x) // x の平方根を返す関数。x >= 0 ではないと�
   int y;
   if( x < 0 ){ //exit(1)の条件をx<0に修正した
     exit(1);
-  }
+  }else{ //else分岐を追加した
   y = sqrt(x);
   return y;
 }
